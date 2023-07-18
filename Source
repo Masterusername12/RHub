@@ -23,3 +23,18 @@ Tab:AddButton({
       		pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
   	end    
 })
+local Tab2 = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "MM2"
+})
+
+Tab2:AddButton({
+	Name = "MM2",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+  	end    
+}
